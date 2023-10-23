@@ -1,0 +1,60 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(60, 134, 110);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000000;
+    color: rgb(60, 134, 110);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #000000;
+}
+
+.section-title {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#dia-a-dia {
+    background-color: rgba(218, 218, 218, 0.281);
+}
+
+.text-colored {
+    color: rgb(60, 134, 110);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(60, 134, 110);
+    color: #000000;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(60, 134, 110);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
